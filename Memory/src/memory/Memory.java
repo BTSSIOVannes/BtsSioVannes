@@ -7,7 +7,7 @@ public class Memory {
 		System.out.println("coucou Demain");
 
 
-		System.out.println("coucou ");
+		System.out.println("coucou");
 
 		System.out.println("alain est trop zentil");
 
