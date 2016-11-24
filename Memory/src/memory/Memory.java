@@ -7,6 +7,7 @@ public class Memory {
 		System.out.println("Jul ?? weird");
 		
 		
+		
 
 	}
 
