@@ -4,7 +4,7 @@ public class Memory {
 
 	public static void main(String[] args) {
 
-		System.out.println("coucou Demain");
+		System.out.println(" coucou Demain");
 
 
 		System.out.println("coucou");
