@@ -15,6 +15,12 @@ public class Memory {
 
 		System.out.println("c'est cool git!!");
 
+
+
+		System.out.println("alain est trop zentil");
+
+		System.out.println("c'est cool git!!");
+
 	}
 
 }
