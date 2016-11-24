@@ -6,6 +6,7 @@ public class Memory {
 		System.out.println("coucou ");
 		System.out.println("Jul ?? weird");
 		
+		
 
 	}
 
