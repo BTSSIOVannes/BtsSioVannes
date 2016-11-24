@@ -10,6 +10,7 @@ public class Memory {
 		System.out.println("coucou ");
 		System.out.println("c'est cool git!!");
 >>>>>>> branch 'master' of https://github.com/BTSSIOVannes/BtsSioVannes
+	CLOCHE
 	}
 
 }
