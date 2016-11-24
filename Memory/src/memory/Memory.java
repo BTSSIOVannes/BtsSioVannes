@@ -12,6 +12,7 @@ public class Memory {
 		System.out.println("alain est trop zentil");
 
 		System.out.println("c'est cool git!!");
+		System.out.println("Bientot le Week end");
 
 	}
 
