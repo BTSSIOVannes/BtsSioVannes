@@ -19,7 +19,7 @@ public class Memory {
 		System.out.println("c'est cool git!!");
 		
 		System.out.println("Bientot le Week end");
-
+		System.out.println("quelle chance qautier");
 	}
 
 }
