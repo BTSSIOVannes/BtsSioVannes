@@ -1,14 +1,12 @@
 package memory;
 
-public class Memory (){
-
-
-
-	
+public class Memory {
 
 	public static void main(String[] args) {
-		System.out.println("coucou Alain");
 
+
+		System.out.println("coucou Alain");
+		
 		System.out.println(" coucou Demain");
 
 		System.out.println("coucou ");
@@ -21,6 +19,8 @@ public class Memory (){
 		System.out.println("c'est cool git!!");
 		
 		System.out.println("Bientot le Week end");
+
 	}
 
 }
+ 
