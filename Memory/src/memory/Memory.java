@@ -18,6 +18,8 @@ public class Memory {
 
 		System.out.println("c'est cool git!!");
 		
+		System.out.println("quelles mains de rêves");
+		
 		System.out.println("Bientot le Week end");
 		System.out.println("quelle chance qautier");
 	}
