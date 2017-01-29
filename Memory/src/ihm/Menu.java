@@ -32,7 +32,7 @@ public class Menu {
 		int choix=0;
 
 		try{
-			// L'instruction try/catch permet de gérer les fonctionnements anormaux d'une application.
+			// L'instruction try/catch permet de gÃ©rer les fonctionnements anormaux d'une application.
 			// Le corps du try correspond au fonctionnement normal
 
 			System.out.println("-------------------");
@@ -47,8 +47,8 @@ public class Menu {
 			}while (choix<0 || choix>nbChoix);
 
 		}catch(InputMismatchException e) {
-			// Le corps du catch correspond au fonctionnement anormal : l'exception qui a été détectée
-			// ici : InputMismatchException = il est possible que le caractère frappé au clavier ne soit pas un entier.
+			// Le corps du catch correspond au fonctionnement anormal : l'exception qui a Ã©tÃ© dÃ©tectÃ©e
+			// ici : InputMismatchException = il est possible que le caractÃ¨re frappÃ© au clavier ne soit pas un entier.
 			// Dans ce cas, on demande une nouvelle saisie.
 			System.out.println("choix non possible");
 			return Menu.getChoix(lignes);
@@ -61,14 +61,14 @@ public class Menu {
 		
 	/**
 	 * Affiche simplement un message dans la console
-	 * @param msg contient le message à afficher
+	 * @param msg contient le message Ã  afficher
 	 */
 	public static void afficheMsg(String msg){
 		System.out.println(msg);
 	}
 	
 	/**
-	 * Méthode permettant d'afficher un message via une msgbox
+	 * MÃ©thode permettant d'afficher un message via une msgbox
 	 * @param titre le titre de la fenetre (box)
 	 * @param msg le message contenu dans la fenetre (box)
 	 */
@@ -79,18 +79,18 @@ public class Menu {
 
 	public static int lireInt() {
 		int rep = getInstance().nextInt();
-		getInstance().nextLine(); // manger le retour à la ligne
+		getInstance().nextLine(); // manger le retour Ã  la ligne
 		return rep;
 	}
 
 	/**
-	 * Permet de lire une chaine de caractères frappée au clavier
+	 * Permet de lire une chaine de caractÃ¨res frappÃ©e au clavier
 	 * @return une chaine lue
 	 */
 	public static String lireString(){
 		String rep =getInstance().nextLine();
 		return rep;
 	}
-
+//test depuis Github
 	
 }
