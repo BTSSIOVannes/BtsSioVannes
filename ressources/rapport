@@ -1,0 +1,63 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+<head>
+		<meta charset="UTF-8">
+		<title>CV</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/knacss.css" media="all">
+		<link rel="stylesheet" href="css/styles.css" media="all">
+</head>
+<body>
+	
+	<header id="header" role="banner" class="line w100 txtleft pas">
+  	<a href=" index.html"><center><img src="img/header.png" align="center" alt=""  /></center></a>
+	</header>
+
+		<ul id="menu">
+        <li><a href="index.html">Acceuil</a></li>
+        <li>
+
+                
+                <li><a href="Competences.html">Competences</a></li>
+                <li><a href="Cv.html">Curiculum Vitae</a></li>
+                
+        </li>
+        <li>
+        	<a href="PPE.html">PPE</a>
+        <ul>
+                        <li><a href="#">PPE n°1</a></li>
+                        <li><a href="#">PPE n°</a></li>
+                </ul>
+            </li>
+        <li>
+        <a href="Projet.html">Projet Personel</a>
+        <ul>
+                        <li><a href="#">Projet Personel n°1</a></li>
+                        <li><a href="#">Projet Personel n°2</a></li>
+                </ul>
+            </li>
+        <li>
+        <a href="Stage.html">Stages</a>
+        <ul>
+                        <li><a href="StageMAIRIE DE LANESTER.html">Stage à la mairie de Lanester</a></li>
+                        <li><a href="#">Stage Chez ....</a></li>
+                        <li><a href="rapport.html">Rapports de stage</a>></li>
+                </ul>
+            </li>
+        <li>
+        <li><a href="Veille.html">Veille Technologique</a></li>
+         <li><a href="contacte.html">Me contacter</a></li>
+</ul>
+	<div id="main" role="main" class="line mal pal">
+			<center><p class="toto"><iframe src="pdf/rapport de stge.pdf" width="1000px" height="1200px"></iframe></p></center>
+			<p class="jean"></p>
+	</div>
+	<footer id="footer" role="contentinfo">
+			<img src="img/footer.jpg" class="footer" alt""/>
+	</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/mojs/0.265.6/mo.min.js"></script>
+<script src="https://cdn.jsdelivr.net/mojs-player/0.43.15/mojs-player.min.js"></script>
+<script src="js/effet.js"></script>
+</body>
+</html>

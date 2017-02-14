@@ -1,0 +1,516 @@
+/********************************************************** DEBUT du menu et des id **************************************************************/
+				/************************************************************************************************************************/
+				/************************************************************************************************************************/
+/************************************************************************************************************************************************/
+#menu {
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        margin: 12;
+        padding: 8px 0 0 0;
+        list-style: none;
+        background: #111;
+        background: -moz-linear-gradient(#444, #111);
+        background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));
+        background: -webkit-linear-gradient(#444, #111);
+        background: -o-linear-gradient(#444, #111);
+        background: -ms-linear-gradient(#444, #111);
+        background: linear-gradient(#444, #111);
+        -moz-border-radius: 50px;
+        border-radius: 80px;
+        -moz-box-shadow: 0 2px 1px #9c9c9c;
+        /*-webkit-box-shadow: 0 2px 1px #9c9c9c;*/
+       /* box-shadow: 0 2px 1px #9c9c9c;*/
+}
+
+#menu li {
+        float: left;
+        padding: 0 0 10px 0;
+        position: relative;
+ /*      display: flex;
+       justify-content: left;
+       flex-direction: row;*/
+}
+
+#menu a {
+        float: left;
+        height: 25px;
+        padding: 0 10px;
+        color: #ffd875;
+        text-transform: uppercase;
+        font: bold 12px/25px Blippo, cursive;
+        text-decoration: none;
+        text-shadow: 0 1px 0 #000;
+        margin: 0 15px;
+}
+
+#menu li:hover > a {
+        color: #fafafa;
+}
+
+*html #menu li a:hover { 
+        color: #fafafa;
+}
+
+#menu li:hover > ul {
+        display: block;
+}
+
+
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: 99999;
+    background: #444;
+    background: -moz-linear-gradient(#444, #111);
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));
+    background: -webkit-linear-gradient(#444, #111);
+    background: -o-linear-gradient(#444, #111);
+    background: -ms-linear-gradient(#444, #111);
+    background: linear-gradient(#444, #111);
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#menu ul li {
+    float: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    -moz-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    -webkit-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+}
+
+#menu ul li:last-child {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#menu ul a {
+    padding: 10px;
+    height: auto;
+    line-height: 1;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+
+*html #menu ul a { 
+        height: 10px;
+        width: 150px;
+}
+
+*:first-child+html #menu ul a { 
+        height: 10px;
+        width: 150px;
+}
+
+#menu ul a:hover {
+        background: #131414;
+        background: -moz-linear-gradient(#FBF8EF,  #131414);
+        background: -webkit-gradient(linear, left top, left bottom, from(#FBF8EF), to(#131414));
+        background: -webkit-linear-gradient(#FBF8EF,  #131414);
+        background: -o-linear-gradient(#FBF8EF,  #131414);
+        background: -ms-linear-gradient(#FBF8EF,  #131414);
+        background: linear-gradient(#FBF8EF,  #131414);
+}
+
+#menu ul li:first-child a {
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+#menu ul li:first-child a:after {
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid #444;
+}
+
+#menu ul li:first-child a:hover:after {
+    border-bottom-color: #FBF8EF;
+}
+
+#menu ul li:last-child a {
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+#menu:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+}
+
+#main {
+	text-align: center;
+}
+
+#yo {
+	text-align: left;
+}
+/********************************************************** FIN du menu et des id **************************************************************/
+				/************************************************************************************************************************/
+				/************************************************************************************************************************/
+/********************************************************** DEBUT du menu et des id **************************************************************/
+body {
+/*background-image:url("file://G:/PPE/ecole/img/ecole.jpg");*/
+background-size: 50%;
+background-position: center;
+background-attachment:  ;
+background-repeat:no-repeat;
+background-color: #ffbe47;
+position: center;
+}
+
+
+.img-container {
+    float: left;
+    margin-bottom: 18px;
+}
+ 
+.img-container img {
+    margin: auto;
+}
+ 
+table {
+    border-spacing: 5px 0px;
+}
+ 
+td.photo {
+    height: 30px;
+    width: 30px;
+    padding: 0 14px 0 14px;
+    vertical-align: middle;
+    text-align: center;
+}
+ 
+
+.dim {
+display:block;
+margin-right: auto;
+margin-left: auto;
+width:30%;
+height:50%;
+position:center;
+background-position:50% 50%;
+}
+
+/*.anime
+{
+height:100px;
+overflow:visible;
+animation:myfirst 10s;
+animation-iteration-count: infinite;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation:myfirst 5s;
+}
+ 
+@keyframes myfirst
+{
+0%   {margin-left:-2470px;}
+ 
+50%  {margin-left:-10px;}
+ 
+100% {margin-left:-2470px;}
+}
+ 
+@-webkit-keyframes myfirst
+{
+0%   {margin-left:-2470px;}
+ 
+50%  {margin-left:-10px;}
+ 
+100% {margin-left:-2470px;}
+}
+
+
+
+.img {
+    max-width: 50%;
+    height: auto;
+}
+
+
+ .polaroid-images a:after {
+        color: #333;
+        font-size: 20px;
+        content: attr(title);
+        position: relative;
+        top:15px;
+        max-width: 10%;
+        height: auto;
+}
+.polaroid-images img {
+        display: block;
+        width: inherit;
+}
+.polaroid-images a:hover{
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+        z-index:10;
+        -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+        -moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
+        box-shadow: 0 10px 20px rgba(0,0,0,.7);
+}
+
+
+
+
+ .polaroid-images a
+{
+        background: white;
+        display: inline;
+        float: left;
+        margin: 0 15px 15px;
+        padding: 10px 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+        -moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+        box-shadow: 0 4px 6px rgba(0,0,0,.3);
+        -webkit-transition: all .15s linear;
+        -moz-transition: all .15s linear;
+        transition: all .15s linear;
+        z-index:0;
+}
+
+.polaroid-images a:nth-child(2n)
+{
+        -webkit-transform: rotate(4deg);
+        -moz-transform: rotate(4deg);
+        transform: rotate(4deg);
+}
+.polaroid-images a:nth-child(3n) {
+        -webkit-transform: rotate(-24deg);
+        -moz-transform: rotate(-24deg);
+        transform: rotate(-24deg);
+}
+.polaroid-images a:nth-child(4n)
+{
+        -webkit-transform: rotate(14deg);
+        -moz-transform: rotate(14deg);
+        transform: rotate(14deg);
+}
+.polaroid-images a:nth-child(5n)
+{
+        -webkit-transform: rotate(-18deg);
+        -moz-transform: rotate(-18deg);
+        transform: rotate(-18deg);
+}
+*/
+.auteur {
+	text-decoration: underline;
+}
+
+.bannerHBM {
+	text-align: center;
+}
+
+.bernard {
+	display: block;
+	margin: 20px 0 10px 0;
+	text-align: center;
+}
+
+.bvn {
+	text-align: left;
+}
+
+.citation {
+	display: flex;
+	font-size: 13px ;
+	font-family:Verdana;
+	text-align: center;
+	font-style: italic;
+}
+.LinkedIn{
+    text-decoration: underline;
+}
+.en_tete
+{
+    position:absolute ;
+    top: 0;
+    left: 0;
+    height:120px ;
+    width:100% ;
+    margin-bottom: 20px;
+}
+.contacte {
+	text-decoration: underline;
+}
+
+.mairie {
+    text-decoration: underline;
+}
+
+.denis {
+	text-decoration: underline;
+}
+
+.email {
+	text-decoration: underline;
+}
+
+.flotte {
+	float:center;
+	text-align: justify;
+    margin:0 10px 0 30px;
+}
+
+.footer {
+    border-image-repeat: repeat;
+	width: 25%;
+}
+
+.googlemap {
+
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.hugz {
+	color : black;
+}
+
+.image {
+	border: 2px #F5FBEF solid;
+}
+
+.liste {
+	text-align: left;
+	font-size: 13px ;
+	font-family:Verdana;
+	list-style-type: 
+}
+
+.logosbanieres {
+	transition: 0.3s;
+}
+
+/*.logosbanieres:hover {
+	transform:scale(1.1);
+}
+*/
+.mich {
+	font-family:Verdana;
+}
+.michel {
+	color : black;
+	text-decoration: underline;
+}
+.aurel2 {
+    color : black;
+}
+
+.michou {
+	color : black;
+	transition: 0.3s;
+	display : flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+}
+.aurel {
+    color : black;
+    transition: 0.3s;
+    display : flex;
+    text-align: center;
+    align-items: center;
+}
+
+p.michou {
+    margin: 10px 50px 0 50px;
+}
+
+/*.michou:hover {
+	transform:scale(1.1);
+}*/
+
+.periode1 {
+	text-align: center;
+}
+
+.presa {
+	text-align: left;
+}
+
+.presaPPE {
+	text-decoration: underline;
+}
+
+.roger {
+	font-size: 13px ;
+	font-family:Verdana;
+	text-align: left;
+}
+
+.roland {
+	border: 2px black solid;
+	border-radius: 20px ;
+	transition: 0.3s;
+}
+
+.roland:hover {
+	transform:scale(1.1);
+}
+
+.skills {
+	text-align: left;
+	font-size: 14px;
+}
+
+.tel {
+	text-decoration: underline;
+}
+/********************************************************** FIN des classes **************************************************************/
+				/************************************************************************************************************************/
+				/************************************************************************************************************************/
+/********************************************************** DEBUT des balises **************************************************************/
+
+
+
+main {
+	background: #ffbe47;
+	border-radius: 20px;
+	margin: 20px, auto;
+}
+
+
+h1 {
+    font-size: 30px; 
+}
+
+hr {
+    height: 2px;
+    margin: 30px auto;
+    background-color: grey;
+    width: 500px;
+}
+
+/********************************************************** FIN des balises **************************************************************/
+				/************************************************************************************************************************/
+				/************************************************************************************************************************/
